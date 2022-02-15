@@ -5,17 +5,38 @@ html {
 
 body {
     width: 85%;
-    background-color: darkgray;
+    background-color: lightgray;
     margin-left: auto;
     margin-right: auto;
     display: flow-root;
 }
 
+/*Navbar*/
 nav.Navbar {
-    background-color: black;
+    background-color: darkgrey;
     width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto; 
     text-decoration: none;
+}
+
+nav ul {
+    display: flow-root;
+    padding: 0px;
+    margin: 0px;
+}
+
+.Navbar li {
+    float: left;
+    color: white;
+    list-style-type: none;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    width: 25%;
+    font-size: 20px;
+}
+
+.Navbar li:hover {
+    background-color: hotpink;
 }
