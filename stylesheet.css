@@ -38,5 +38,45 @@ nav ul {
 }
 
 .Navbar li:hover {
-    background-color: hotpink;
+    background-color: purple;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: white;
+}
+
+/* H1 titles */
+h1 {
+    color: purple;
+    text-align: center;
+}
+
+/* H2 titles */
+h2 {
+    color: black;
+}
+/* Images */
+img {
+    display: block;
+    float: left;
+    padding: 0em 0em 1em 1em;
+}
+
+/* text */
+article.content {
+    display: block;
+    text-align: left;
+
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    gap: 1em 1em;
 }
