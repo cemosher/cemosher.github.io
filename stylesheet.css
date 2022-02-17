@@ -68,11 +68,17 @@ img {
     padding: 0em 0em 1em 1em;
 }
 
+
+.resume-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+
 /* text */
 article.content {
     display: block;
-    text-align: left;
-
 }
 
 .flex-container {
