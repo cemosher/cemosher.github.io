@@ -44,12 +44,13 @@ nav ul {
 /* Links */
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 a:visited {
     color: white;
 }
+
 
 /* H1 titles */
 h1 {
@@ -86,3 +87,32 @@ article.content {
     align-items: center;
     gap: 1em 1em;
 }
+
+.flex-container2 > h2{
+    color: purple;
+    padding: 0em 0em 0em 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container2 > h3{
+    padding: 0em 0em 0em 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container2 > p {
+    padding: 0em 0em 0em 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container2 > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+
+
